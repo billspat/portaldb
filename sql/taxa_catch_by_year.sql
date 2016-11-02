@@ -1,0 +1,1 @@
+select taxa, year, count(*) as n from plot_surveys group by taxa,year;

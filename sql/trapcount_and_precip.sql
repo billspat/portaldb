@@ -1,0 +1,2 @@
+select rainfall.year || '-' || rainfall.month as month, taxa, trapcount, precipitation 
+from monthly_trapcount inner join rainfall on monthly_trapcount.year = rainfall.year and monthly_trapcount.month = rainfall.month; 

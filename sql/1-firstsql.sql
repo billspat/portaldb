@@ -1,0 +1,1 @@
+select year, species_id, genus, species, plot, weight from plot_surveys;
